@@ -4,11 +4,13 @@ package tw.core;/*
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -36,6 +38,57 @@ public class GameTest {
         assertThat(guess.getResult(), is("4A0B"));
 
     }
+   @Test
+    public void should_get_the_success_status_when_guess_input_is_correct_answer() throws Exception {
+        //given
+        game.guess(Answer.createAnswer("1 2 3 4"));
+        //when
+        String status = game.checkStatus();
+        //then
+        assertThat(status,is("success"));
+    }
+    @Test
+    public void should_get_the_FAIL_status_when_guess_input_is_incorrect_answer_with_six_times() throws Exception {
+        //given
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        //when
+        String status = game.checkStatus();
+        //then
+        assertThat(status,is("fail"));
+    }
+    @Test
+    public  void should_return_guessHistory_when_guess_right_on_the_second_time() throws Exception {
+        GuessResult guess = game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("1 2 3 4"));
+        game.guessHistory();
+        assertThat(game.guessHistory().get(1).getResult(),is("4A0B"));
+
+    }
+
+    @Test
+    public void should_get_the_Exception_status_when_guess_seven_times() throws Exception {
+        //given
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
+        game.guess(Answer.createAnswer("6 2 3 4"));
 
 
+
+        //when
+        String status = game.checkStatus();
+        try {
+            game.guess(Answer.createAnswer("6 2 3 4"));
+            fail("Over Time!");
+        } catch (OutOfGuessCountException exception) {
+
+        }
+    }
 }
