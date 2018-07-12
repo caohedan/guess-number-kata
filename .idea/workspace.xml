@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41953357-02ac-42ac-860f-201bc0704449" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-java-base_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-java-base_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,7 +26,7 @@
     <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test__2_.ic" NAME="All in tdd-java-base_test (2) Coverage Results" MODIFIED="1531393811142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531394484914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test__3_.ic" NAME="All in tdd-java-base_test (3) Coverage Results" MODIFIED="1531394715397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test__1_.ic" NAME="All in tdd-java-base_test (1) Coverage Results" MODIFIED="1531393626614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/guess_number_kata$All_in_tdd_java_base_test__1_.ic" NAME="All in tdd-java-base_test (1) Coverage Results" MODIFIED="1531394930538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -60,8 +38,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="527">
+              <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -69,8 +47,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="811">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="e#1344#1345#0" expanded="true" />
                 <element signature="e#1379#1380#0" expanded="true" />
@@ -85,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
@@ -712,17 +690,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531386387771</updated>
-      <workItem from="1531386391177" duration="8514000" />
+      <workItem from="1531386391177" duration="8924000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tdd-java-base_test_(2) - 2018.07.12 at 19h 20m 53s.xml">
-      <configuration name="All in tdd-java-base_test (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_tdd-java-base_test_(2) - 2018.07.12 at 19h 21m 03s.xml">
-      <configuration name="All in tdd-java-base_test (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_tdd-java-base_test_(2) - 2018.07.12 at 19h 21m 17s.xml">
       <configuration name="All in tdd-java-base_test (2)" configurationId="JUnit" />
     </history-entry>
@@ -747,9 +719,15 @@
     <history-entry file="All_in_tdd-java-base_test_(3) - 2018.07.12 at 19h 28m 05s.xml">
       <configuration name="All in tdd-java-base_test (3)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_tdd-java-base_test_(3) - 2018.07.12 at 19h 28m 35s.xml">
+      <configuration name="All in tdd-java-base_test (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tdd-java-base_test_(1) - 2018.07.12 at 19h 28m 53s.xml">
+      <configuration name="All in tdd-java-base_test (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8514000" />
+    <option name="totallyTimeSpent" value="8924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -773,9 +751,9 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20454545" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46753246" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32569295" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.15584415" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3517316" />
       <window_info anchor="right" id="Gradle" />
@@ -1045,8 +1023,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="811">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding>
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1379#1380#0" expanded="true" />
@@ -1059,7 +1037,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#387#388#0" expanded="true" />
@@ -1069,8 +1047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        <state relative-caret-position="527">
+          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
         </state>
       </provider>
     </entry>

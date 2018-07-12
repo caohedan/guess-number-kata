@@ -63,9 +63,12 @@ public class GameTest {
     }
     @Test
     public  void should_return_guessHistory_when_guess_right_on_the_second_time() throws Exception {
+        //given
         GuessResult guess = game.guess(Answer.createAnswer("6 2 3 4"));
         game.guess(Answer.createAnswer("1 2 3 4"));
+        //when
         game.guessHistory();
+        //then
         assertThat(game.guessHistory().get(1).getResult(),is("4A0B"));
 
     }
@@ -84,6 +87,7 @@ public class GameTest {
 
         //when
         String status = game.checkStatus();
+        //then
         try {
             game.guess(Answer.createAnswer("6 2 3 4"));
             fail("Over Time!");
